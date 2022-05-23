@@ -1,0 +1,44 @@
+[
+    {
+        "_id": "1",
+        "img": "https://img.freepik.com/free-photo/medium-shot-happy-man-smiling_23-2148221808.jpg?size=626&ext=jpg&ga=GA1.1.1265118123.1653305251",
+        "location": "Dhaka",
+        "name": "johnny",
+        "review": "Trusted shop, highly recommanded"
+    },
+    {
+        "_id": "2",
+        "img": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRbMigoSI-w6bjLxl3qXVC3482EAbhYImiZXw&usqp=CAU",
+        "location": "Mirpur",
+        "name": "Abraham",
+        "review": "They are very professional, i have ordered a parts last month & i received original product within estimated delivery time. recommanded."
+    },
+    {
+        "_id": "3",
+        "img": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSLsupI89wVbXLRzxaiHG_rezqk3FrqDeMmog&usqp=CAU",
+        "location": "Savar",
+        "name": "Shafik",
+        "review": "Quck dellivery, original product . on time shipping. thanks hexashop."
+    },
+    {
+        "_id": "4",
+        "img": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRQnVF6kPOwLxFmwHuLQIn-_f6lLFACKWYdCw&usqp=CAU",
+        "location": "Badda",
+        "name": "Faisal",
+        "review": "Carparts got back to me very quickly about the issues that I had, so hopefully it will be fully resolved in a couple weeks! Thank you very much."
+    },
+    {
+        "_id": "5",
+        "img": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTmIh7V-Sq7K48WnUqtu18enb2Mnm_3fwnDJg&usqp=CAU",
+        "location": "Dhanmondi",
+        "name": "Riyad",
+        "review": "I had a issue with my parts way back in February. I've put off writing a review. I've gotten a dozen emails from them to review just because I'm constantly buying parts from them. They're super cheap and arrive to my house in perfectly packed boxes."
+    },
+    {
+        "_id": "6",
+        "img": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTqzTuLO5z8ZmnvqNSMdaaYkTKvphKORCS7YA&usqp=CAU",
+        "location": "Chittagong",
+        "name": "Abedin",
+        "review": "Got my driveshaft and direct perfect fit, only issue was it didn't ship from their facility till the day AFTER I was supposed to already have it. They did compensate on shipping though so I can deal with that and was a better price than anywhere else."
+    }
+]
