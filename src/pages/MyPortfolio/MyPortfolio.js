@@ -9,13 +9,13 @@ const MyPortfolio = () => {
           <div>
             <h1 class="text-5xl font-bold">Md. Tusher Ahmed Aman</h1>
             <p className="mt-2 mb-5">
-              UI/UX Designer and Web or <span className="text-red-400">Application Developer</span>
+              UI/UX Designer and Web <span className="text-red-400">Developer</span>
             </p>
             <p>
-              I am Tusher, an web developer, and a creative designer with over 1 year of experience. I do web development that
-              offers a wide range of services, but not limited to, including figma design into react, android app development,
+              I am Tusher, a web developer, and a creative designer with over 1 year of experience. I do web development that
+              offers a wide range of services, but not limited to, including figma design into react 
               using react-native, and many more. I also design the UI/UX of websites. Feel free to reach out to me so we can start
-              planning your next project.
+              planning about your next project.
             </p>
           </div>
         </div>

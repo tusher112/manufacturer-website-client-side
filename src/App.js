@@ -9,6 +9,15 @@ import Blogs from './pages/Blogs/Blogs';
 import MyPortfolio from './pages/MyPortfolio/MyPortfolio';
 import Dashboard from './pages/Dashboard/Dashboard';
 import RequireAuth from './pages/Login/RequireAuth';
+import Users from './pages/Dashboard/Users';
+import MyOrder from './pages/Dashboard/MyOrder';
+// import RequireAdmin from './pages/Login/RequireAdmin';
+import MyProfile from './pages/Dashboard/MyProfile';
+import ManageAllOrders from './pages/Dashboard/ManageAllOrders';
+import ManageAllProduct from './pages/Dashboard/ManageAllProduct';
+import AddProduct from './pages/Dashboard/AddProduct';
+import MyReview from './pages/Dashboard/MyReview';
+import { ToastContainer } from 'react-toastify';
 
 function App() {
   return (
@@ -19,11 +28,24 @@ function App() {
         <Route path='/login' element={<Login></Login>}></Route>
         <Route path='/signup' element={<SignUp></SignUp>}></Route>
         <Route path='/blogs' element={<Blogs></Blogs>}></Route>
-        <Route path="dashboard" element={<RequireAuth><Dashboard /></RequireAuth>} > </Route>
+        
+        <Route path="/dashboard" element={<RequireAuth><Dashboard></Dashboard></RequireAuth>}>
+        <Route index element={<MyProfile></MyProfile>}></Route>
+        <Route path="order" element={<MyOrder></MyOrder>}></Route>
+        <Route path="review" element={<MyReview></MyReview>}></Route>
+        <Route path="users" element={<Users></Users>}></Route>
+        <Route path="order" element={<MyOrder></MyOrder>}></Route>
+        <Route path="addproduct" element={<AddProduct></AddProduct>}></Route>
+        <Route path="manageorder" element={<ManageAllOrders></ManageAllOrders>}></Route>
+        <Route path="manageproduct" element={<ManageAllProduct></ManageAllProduct>}></Route>
+
+        </Route>
+
 
         <Route path='/myportfolio' element={<MyPortfolio></MyPortfolio>}></Route>
         <Route path='*' element={<Notfound></Notfound>}></Route>
       </Routes>
+      <ToastContainer />
     </div>
   );
 }

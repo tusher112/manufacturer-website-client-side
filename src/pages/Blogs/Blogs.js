@@ -17,13 +17,17 @@ const Blogs = () => {
             <div>
                 <h2 className='text-3xl	'>2 What are the different ways to manage a state in a React application?</h2>
                 <article className='text-lg'>
-                    
+                There are four main types of state you need to properly manage in your React apps: <br></br>
+                1. Local state: Local state is data we manage in one or another component. Local state is most often managed in React using the useState hook
+                2. Global state: Global state is data we manage across multiple components.<br></br>
                 </article>
             </div>
 
             <div>
                 <h2 className='text-3xl	'>3 How does prototypical inheritance work?</h2>
                 <article className='text-lg'>
+                The Prototypal Inheritance is a feature in javascript used to add methods and properties in objects. It is a method by which an object can inherit the properties and methods of another object. <br/>
+              Prototypical inheritance refers to the ability to access object properties from another object. We use a JavaScript prototype to add new properties and methods to an existing object constructor. We can then essentially tell our JS code to inherit properties from a prototype.
                     
                 </article>
             </div>
