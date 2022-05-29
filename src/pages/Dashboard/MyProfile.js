@@ -3,7 +3,7 @@ import React from 'react';
 const MyProfile = () => {
     return (
         <div>
-            g ngdxgt
+            My profile
         </div>
     );
 };

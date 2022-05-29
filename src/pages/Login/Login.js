@@ -1,9 +1,9 @@
 import React, { useEffect } from 'react';
 import { useSignInWithEmailAndPassword, useSignInWithGoogle } from 'react-firebase-hooks/auth';
-import { useForm } from "react-hook-form";
-import { Link, useNavigate, useLocation } from 'react-router-dom';
 import auth from '../../firebase.init';
+import { useForm } from "react-hook-form";
 import Loading from '../Shared/Loading';
+import { Link, useNavigate, useLocation } from 'react-router-dom';
 
 const Login = () => {
     const [signInWithGoogle, gUser, gLoading, gError] = useSignInWithGoogle(auth);
@@ -95,13 +95,13 @@ const Login = () => {
                         </div>
 
                         {signInError}
-                        <input className='btn bg-success w-full max-w-xs text-white' type="submit" value="Login" />
+                        <input className='btn w-full max-w-xs text-white' type="submit" value="Login" />
                     </form>
-                    <p><small>New to Our Shop? <Link className='text-primary' to="/signup">Create New Account</Link></small></p>
+                    <p><small>New to Doctors Portal <Link className='text-primary' to="/signup">Create New Account</Link></small></p>
                     <div className="divider">OR</div>
                     <button
                         onClick={() => signInWithGoogle()}
-                        className="btn bg-success btn-outline text-white"
+                        className="btn btn-outline"
                     >Continue with Google</button>
                 </div>
             </div>
